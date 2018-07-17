@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p id='changing'>I will be the changing element!</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <label for="change-A">First Transition</label>
+        <select class="form-control" name="change-A" id="change-A">
+        <option value="">-- Select a Change --</option>
+        <option value="color">Color</option>
+        <option value="background">Background</option>
+        <option value="font-style">Font Style</option>
+        <option value="font-weight">Font Weight</option>
+      </select>
+      </div>
+      <div class="col">
+        <label for="change-A">Second Transition</label>
+        <select class="form-control" name="change-B" id="change-B">
+        <option value="">-- Select a Change --</option>
+        <option value="color">Color</option>
+        <option value="background">Background</option>
+        <option value="font-style">Font Style</option>
+        <option value="font-weight">Font Weight</option>
+      </select>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <div class="col">
+        <button id='transition' class='btn btn-success'>Go!</button>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col">
+        <p id='error'></p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src ="script.js"></script>
+</body>
+
+</html>
